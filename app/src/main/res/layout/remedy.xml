@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCEDC1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remedies"
+        android:textSize="50dp"
+        android:textColor="#F3762F"
+        android:gravity="center"></TextView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#53AA12"
+    android:padding="8dp"
+    android:text="-> Apply Apple Cider Vinegar"
+    android:textSize="30dp"
+    android:layout_marginTop="30dp"
+    ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> Take a Zinc Supplement"
+        android:padding="8dp"
+        android:textSize="30dp"
+        android:textColor="#53AA12"
+        android:layout_marginTop="30dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#53AA12"
+        android:layout_height="wrap_content"
+        android:text="-> Make a Honey and Cinnamon Mask"
+        android:padding="8dp"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> Spot Treat With Tea Tree Oil"
+        android:textSize="30dp"
+        android:textColor="#53AA12"
+        android:layout_marginTop="30dp"
+        android:padding="8dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:text="-> Apply Green Tea to Your Skin"
+        android:textSize="30dp"
+        android:textColor="#53AA12"
+        android:layout_marginTop="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:textColor="#53AA12"
+        android:layout_height="wrap_content"
+        android:text="-> Apply Witch Hazel"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#53AA12"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="-> Moisturize With Aloe Vera"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@drawable/rectangle"
+        android:textColor="#F3762F"
+        android:layout_marginBottom="30dp"
+        android:text="Book Doctor appointment"
+        android:layout_marginTop="30dp"
+        android:onClick="appointment"></Button>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

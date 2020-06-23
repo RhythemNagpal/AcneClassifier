@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="80dp"
+                android:textColor="#74208F"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#74208F"
+                android:hint="Email id"
+                android:paddingRight="5dp"
+                android:id="@+id/email"
+                android:textColorHint="#74208F"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="10dp"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/pass"
+                android:paddingRight="8dp"
+                android:inputType="textPassword"
+                android:textColor="#74208F"
+                android:hint="Password"
+                android:textColorHint="#74208F"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="10dp"></EditText>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#74208F"
+                android:onClick="login"
+                android:textSize="30dp"
+                android:background="#FFC8C8"
+                android:layout_marginBottom="30dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not a Member? Register here"
+                android:textSize="24dp"
+                android:padding="8dp"
+                android:id="@+id/register"
+                android:gravity="center"
+                android:textColor="#74208F"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textSize="24dp"
+                android:padding="8dp"
+                android:id="@+id/forgotpass"
+                android:gravity="center"
+                android:textColor="#74208F"></TextView>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressbar"
+                android:visibility="invisible"
+                android:layout_gravity="center"></ProgressBar>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/cameraView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center|top" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewResult"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:maxLines="15"
+            android:textSize="20dp"
+            android:scrollbars="vertical"
+            android:textColor="#74208F" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom|center"
+        android:text="Show remedy"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:onClick="remedy"
+        android:id="@+id/remedy"
+        android:background="#FFC8C8"
+        android:layout_marginBottom="150dp"
+        android:textColor="#74208F"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/btnToggleCamera"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom|center"
+        android:background="#FFC8C8"
+        android:layout_marginBottom="100dp"
+        android:text="@string/toggle_camera"
+        android:textAllCaps="false"
+        android:textColor="#74208F" />
+
+    <Button
+        android:id="@+id/btnDetectObject"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom|center"
+        android:text="@string/detect_object"
+        android:textAllCaps="false"
+        android:background="#FFC8C8"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#74208F"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom|center"
+        android:textColor="#74208F"
+        android:background="#FFC8C8"
+        android:text="Log Out"
+        android:textSize="20dp"
+        android:onClick="logout"
+        android:textAllCaps="false" />
+</FrameLayout>

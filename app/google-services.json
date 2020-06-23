@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "66793923550",
+    "firebase_url": "https://smartderma-acneclassifier.firebaseio.com",
+    "project_id": "smartderma-acneclassifier",
+    "storage_bucket": "smartderma-acneclassifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66793923550:android:d3e4b5f171573458b9b34f",
+        "android_client_info": {
+          "package_name": "com.acne_classifier.acneclassifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66793923550-fi5gvthaj1hiiei5sdgt0136fs1h1im1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7OFJBGiZIf-COZucDnTD8dHDR4gAqQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66793923550-fi5gvthaj1hiiei5sdgt0136fs1h1im1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66793923550:android:799591c967246820b9b34f",
+        "android_client_info": {
+          "package_name": "com.codeitdown_admin.acneclassifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66793923550-6vr0efjnebucj1mngu2p3ljor93mdd2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeitdown_admin.acneclassifier",
+            "certificate_hash": "70b25d8570dea9516928110df754e13099e22bc2"
+          }
+        },
+        {
+          "client_id": "66793923550-fi5gvthaj1hiiei5sdgt0136fs1h1im1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7OFJBGiZIf-COZucDnTD8dHDR4gAqQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66793923550-fi5gvthaj1hiiei5sdgt0136fs1h1im1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
